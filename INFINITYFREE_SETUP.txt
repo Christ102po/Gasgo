@@ -1,0 +1,3 @@
+LEGACY HOSTING INSTRUCTIONS RETIRED
+This project is now configured for Railway. See RAILWAY_DEPLOYMENT.md.
+Do not use any historical credentials from old project archives.
