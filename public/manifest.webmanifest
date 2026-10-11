@@ -1,0 +1,39 @@
+{
+  "id": "/",
+  "name": "GasGo - Siargao Fuel Locator",
+  "short_name": "GasGo",
+  "description": "Find gasoline stations across Siargao, compare fuel prices and availability, and get directions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "categories": ["navigation", "travel", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Gasoline Stations",
+      "short_name": "Stations",
+      "url": "/#stations"
+    },
+    {
+      "name": "Station Map",
+      "short_name": "Map",
+      "url": "/#map-section"
+    }
+  ]
+}

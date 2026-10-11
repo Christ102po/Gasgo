@@ -1,0 +1,6 @@
+GasGo AI on Railway
+==================
+Set OPENAI_API_KEY in Railway > GasGo web service > Variables, never in a PHP file.
+Optional OPENAI_MODEL (default gpt-4.1-mini). API billing is separate from Railway.
+The existing frontend calls public/api/ai_chat.php in the same PHP service.
+For full instructions, see RAILWAY_DEPLOYMENT.md.

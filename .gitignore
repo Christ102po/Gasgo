@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.git/
+*.log
+# User-uploaded photos are stored in a Railway volume.
+/uploads/*
+!/uploads/.gitkeep
+/public/uploads/stations/*
+!/public/uploads/stations/.gitkeep
