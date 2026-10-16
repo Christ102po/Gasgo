@@ -196,12 +196,12 @@ if ($stationsJson === false) {
     <style>
 
         /* Homepage hero background image.
-           index.php is in the project root, so this resolves to:
-           /uploads/gasgobackground.png */
+           index.php is in the project root; image is stored in:
+           /public/uploads/gasgobackground.png */
         .hero {
             background:
                 linear-gradient(rgba(17, 24, 39, 0.58), rgba(17, 24, 39, 0.58)),
-                url('uploads/gasgobackground.png') center center / cover no-repeat;
+                url('public/uploads/gasgobackground.png') center center / cover no-repeat;
             color: #ffffff;
         }
            
