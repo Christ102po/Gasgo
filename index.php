@@ -1907,15 +1907,15 @@ if ($stationsJson === false) {
 
 
         .station-grid .station-card[data-station] {
-            /* 3 gaps x 14px = 42px, leaving room for 4 equal cards. */
-            flex: 0 0 calc((100% - 42px) / 4);
-            width: calc((100% - 42px) / 4);
-            min-width: 0;
-            max-width: calc((100% - 42px) / 4);
-            height: auto;
-            scroll-snap-align: start;
-            scroll-snap-stop: always;
-        }
+    /* 2 gaps x 14px = 28px, leaving room for 3 equal cards. */
+    flex: 0 0 calc((100% - 28px) / 3);
+    width: calc((100% - 28px) / 3);
+    min-width: 0;
+    max-width: calc((100% - 28px) / 3);
+    height: auto;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
 
 
         .station-grid > .card:not([data-station]) {
